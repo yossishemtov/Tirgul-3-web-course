@@ -501,7 +501,7 @@ update-browserslist-db@^1.0.13:
 util-deprecate@^1.0.2:
   version "1.0.2"
 
-vite@^4.4.5:
+vite@^4.5.3:
   version "4.5.3"
   resolved "https://registry.npmjs.org/vite/-/vite-4.5.3.tgz"
   integrity sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==
