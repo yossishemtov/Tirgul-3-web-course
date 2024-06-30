@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind example</title>
+    <title>Tailwind Example</title>
     <link rel="stylesheet" href="/style.css" />
 </head>
 <body class="dark:bg-gray-700 dark:text-white p-4">
@@ -19,6 +19,9 @@
                 </svg>
             </button>
             <div class="absolute top-[56px] left-0 bg-blue-300 p-3 hidden w-full" id="ddMenu">
+                <button class="block py-1 px-2" onclick="setView('Calculator')">Calculator</button>
+                <button class="block py-1 px-2" onclick="setView('About')">About</button>
+                <button class="block py-1 px-2" onclick="setView('Contact')">Contact</button>
             </div>
             <div class="justify-start gap-4 hidden sm:flex">
                 <button onclick="setView('Calculator')">Calculator</button>
@@ -32,6 +35,6 @@
             <div id="app" class="w-full bg-blue-100 p-2"></div>
         </div>
     </div>
-    <script type="module" src="./app1.js"></script>
+    <script src="./app4.js"></script>
 </body>
 </html>
